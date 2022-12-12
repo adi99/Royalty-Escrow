@@ -4,9 +4,9 @@
 
 
 ## 🧠 Challenges
-- Buyer does not want to pay for roylty. If they have chance to not pay the royalty then most buyers are not paying the royalty </br>
-- Royalty is a way to get additional revenue for Creators. </br> 
-- If a Platform enforce royalty Buyer will find a different platform to buys the NFTs. </br>
+- NFT Buyer does not want to pay for roylty. If they have chance to not pay the royalty then most NFT buyers are not paying the royalty </br>
+- Royalty is a way to get additional revenue for Creators for long term. </br> 
+- If a Platform enforce royalty NFT Buyer will find a different platform to buys the NFTs. </br>
 
 ## Solution 
 Overcollateralized loans are widely famous in the Decentralized Finance world. </br>
