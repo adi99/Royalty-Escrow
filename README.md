@@ -34,4 +34,4 @@ In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 
 ## ▶️ Demo
 
-[![Solana Patreon Demo]()](https://www.loom.com/share/c9892eb6b47042f0b759df314083c05d 'Solana Patreon')
+[![Solana Patreon Demo](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)](https://www.loom.com/share/c9892eb6b47042f0b759df314083c05d 'Solana Patreon')
