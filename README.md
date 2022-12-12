@@ -16,7 +16,7 @@ Undercollaterlized loans have never been used before in DeFI ecosystem before so
 2- paid with Half Royalty (royalty 2.5%) </br>
 3- Didn't paid the Royalty(royalty 0%) </br>
 
-Needed from Magic Eden:-
+### Needed from Magic Eden:-</br>
 A private Curve Pool with fund (100k) </br>
 
 In case of 2.5% and 0% royalty, Following process will be followed:- </br>
