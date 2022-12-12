@@ -1,14 +1,15 @@
 
 # Solana Escrow
 
-Overcollateralized loans are widely famous in the Decentralized Finance world. </br>
+
 
 ## 🧠 Challenges
 1- Buyer does not want to pay for roylty. If they have chance to not pay the royalty then most buyers are not paying the royalty </br>
 2- Royalty is a way to get additional revenue for Creators. </br> 
 3- If a Platform enforce royalty Buyer will find a different platform to buys the NFTs. </br>
 
-## Solution
+## Solution 
+Overcollateralized loans are widely famous in the Decentralized Finance world. </br>
 Undercollaterlized loans have never been used before in DeFI ecosystem before so In this concept if buyer haven't paid or partly paid the royalty still the creator will receive the royalty.
 
 ### In Magic Eden there are three option </br>
