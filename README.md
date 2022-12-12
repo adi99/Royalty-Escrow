@@ -19,7 +19,7 @@ Undercollaterlized loans have never been used before in DeFI ecosystem before so
 Needed from Magic Eden:-
 A private Curve Pool with fund (100k) </br>
 
-In case of 2.5% and 0% royalty, Following process will be followed:-
+In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 1- Buyer will pay the NFT price in Sol/ETH and deposited into a platform with 5% APY(The deposited aaset can not be withdrawn before maturity period) </br>
 2- The deposited Sol/ETH will be converted to (1.025 in case of 2.5% royalty and 1.05 in case of 0% royalty) mSol/mETH. </br>
 3- mSol/mETH will be converted to equivalent Sol/ETH(1.025 in case of 2.5% royalty and 1.05 in case of 0% royalty) with the private Curve Pool. </br>
