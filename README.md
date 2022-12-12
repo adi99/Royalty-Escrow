@@ -8,7 +8,7 @@ Overcollateralized loans are widely famous in the Decentralized Finance world. <
 2- Royalty is a way to get additional revenue for Creators. </br> 
 3- If a Platform enforce royalty Buyer will find a different platform to buys the NFTs. </br>
 
-## Solution:-
+## Solution
 Undercollaterlized loans have never been used before in DeFI ecosystem before so In this concept if buyer haven't paid or partly paid the royalty still the creator will receive the royalty.
 
 ### In Magic Eden there are three option </br>
@@ -19,6 +19,8 @@ Undercollaterlized loans have never been used before in DeFI ecosystem before so
 ### Needed from Magic Eden:-</br>
 A private Curve Pool with fund (100k) </br>
 
+
+### Process
 In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 1- Buyer will pay the NFT price in Sol/ETH and deposited into a platform with 5% APY(The deposited aaset can not be withdrawn before maturity period) </br>
 2- The deposited Sol/ETH will be converted to (1.025 in case of 2.5% royalty and 1.05 in case of 0% royalty) mSol/mETH. </br>
