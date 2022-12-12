@@ -1,9 +1,8 @@
-import { FC } from "react";
-import { SignMessage } from '../../components/SignMessage';
+// Next, React
+import tokenLogo from './token-logo.png';
+import ethLogo from './eth-logo.png';
 import { SendTransaction } from '../../components/SendTransaction';
-import tokenLogo from './token-logo.png'
-import ethLogo from './eth-logo.png'
-import React, { useEffect, useState, Component } from 'react';
+import React, { FC, useEffect, useState, Component } from 'react';
 import Link from 'next/link';
 
 // Wallet
@@ -16,13 +15,13 @@ import pkg from '../../../package.json';
 // Store
 import useUserSOLBalanceStore from '../../stores/useUserSOLBalanceStore';
 
-export const BasicsView: FC = ({ }) => {
-
-const wallet = useWallet();
+export const CreatorView: FC = ({ }) => {
+  const wallet = useWallet();
   const { connection } = useConnection();
 
   const balance = useUserSOLBalanceStore((s) => s.balance)
   const { getUserSOLBalance } = useUserSOLBalanceStore()
+  var date = new Date().toDateString();
 
   useEffect(() => {
     if (wallet.publicKey) {
@@ -31,18 +30,18 @@ const wallet = useWallet();
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
 
+
   return (
-<div className="md:hero mx-auto p-4">
-      <div className="md:hero-content flex flex-col">
-        <div className="md:hero mx-auto p-4">
+    <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
         <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-          Royalty Lite <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
+          Half Royalty Paid <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>
         <h4 className="md:w-full text-center text-slate-300 my-2">
           <p>Undercollateralized Loan</p>
           Generate additional Royalty through Staking
          </h4>
+
           <form className="mb-3" onSubmit={(event) => {
           event.preventDefault()
           let etherAmount
@@ -62,7 +61,7 @@ const wallet = useWallet();
             onChange={(event) => {
               const etherAmount = this.input.value.toString()
               this.setState({
-                output: etherAmount * 1
+                output: etherAmount * 1.025
               })
             }}
             className="form-control form-control-lg"
@@ -71,14 +70,14 @@ const wallet = useWallet();
           <div className="input-group-append">
             <div className="input-group-text">
               <img src={ethLogo} height='32' alt=""/>
-              &nbsp;&nbsp;&nbsp; mSOL
+              &nbsp;&nbsp;&nbsp; SOL
             </div>
           </div>
         </div>
         <div>
           <label className="float-left"><b>Output</b></label>
           <span className="float-right text-muted">
-            Balance: 10
+            Balance: 0
           </span>
         </div>
         <div className="input-group input-group-lg">
@@ -91,24 +90,21 @@ const wallet = useWallet();
           <div className="input-group-append">
             <div className="input-group-text">
               <img src={tokenLogo} height='32' alt=""/>
-              &nbsp; SOL
+              &nbsp; mSOL
             </div>
           </div>
         </div>
         <div className="mb-5">
           <span className="float-left text-muted">Exchange Rate</span>
-          <span className="float-right text-muted">1 mSOL = 1 SOL</span>
+          <span className="float-right text-muted">1 SOL = 1.025 mSOL</span>
+        </div>
+
+         <div class="card" className="mb-5">
+          <span className="float-left text-muted">Maturity</span>
+          <span className="float-right text-muted">{date}</span>
         </div>
         <SendTransaction />
       </form>
-
-          <div className="text-center">
-        </div>
-      </div>
-    </div>
-        <div className="text-center">
-          
-        </div>
       </div>
     </div>
   );

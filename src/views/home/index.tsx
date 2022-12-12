@@ -1,5 +1,7 @@
 // Next, React
-import { FC, useEffect, useState } from 'react';
+import tokenLogo from './token-logo.png'
+import ethLogo from './eth-logo.png'
+import React, { FC, useEffect, useState, Component } from 'react';
 import Link from 'next/link';
 
 // Wallet
@@ -26,27 +28,27 @@ export const HomeView: FC = ({ }) => {
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
 
-  return (
 
+  return (
     <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
         <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
-          Scaffold Lite <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
+          Royalty Lite <span className='text-sm font-normal align-top text-slate-700'>v{pkg.version}</span>
         </h1>
         <h4 className="md:w-full text-center text-slate-300 my-2">
-          <p>Simply the fastest way to get started.</p>
-          Next.js, tailwind, wallet, web3.js, and more.
-        </h4>
-        <div className="max-w-md mx-auto mockup-code bg-primary p-6 my-2">
-          <pre data-prefix=">">
-            <code className="truncate">Start building on Solana  </code>
-          </pre>
-        </div>        
-          <div className="text-center">
-          <RequestAirdrop />
-          {/* {wallet.publicKey && <p>Public Key: {wallet.publicKey.toBase58()}</p>} */}
-          {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}
+          <p>Undercollateralized Loan</p>
+          Generate additional Royalty through Staking
+         </h4>
+
+          <div className="text-center" >
+          <Link href="/creator">
+          <button type="submit" id ="button1" className="group w-60 m-2 btn animate-pulse disabled:animate-none bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 btn btn-primary btn-block btn-lg">Half Royalty</button>
+          </Link> 
         </div>
+        <div className="text-center">
+          <button type="submit" id ="button2" className="group w-60 m-2 btn animate-pulse disabled:animate-none bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 btn btn-primary btn-block btn-lg">No Royalty</button>
+        </div>
+
       </div>
     </div>
   );

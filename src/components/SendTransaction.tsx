@@ -46,7 +46,7 @@ export const SendTransaction: FC = () => {
                     Wallet not connected
                 </div>
                 <span className="block group-disabled:hidden" > 
-                    Send Transaction 
+                    Swap
                 </span>
             </button>
         </div>
