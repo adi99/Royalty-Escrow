@@ -3,16 +3,15 @@
 
 Overcollateralized loans are widely famous in the Decentralized Finance world. </br>
 
-Problem with Royalty:- </br>
+## 🧠 Challenges
 1- Buyer does not want to pay for roylty. If they have chance to not pay the royalty then most buyers are not paying the royalty </br>
 2- Royalty is a way to get additional revenue for Creators. </br> 
 3- If a Platform enforce royalty Buyer will find a different platform to buys the NFTs. </br>
 
-Solution:-
-
+## Solution:-
 Undercollaterlized loans have never been used before in DeFI ecosystem before so In this concept if buyer haven't paid or partly paid the royalty still the creator will receive the royalty.
 
-In Magic Eden there are three option </br>
+### In Magic Eden there are three option </br>
 1- Paid with Full royalty (will exclude this case) </br>
 2- paid with Half Royalty (royalty 2.5%) </br>
 3- Didn't paid the Royalty(royalty 0%) </br>
@@ -29,3 +28,8 @@ In case of 2.5% and 0% royalty, Following process will be followed:-
 6- In this case both creator will get full royalty and Buyer can choose to pay royalty based on his preference. </br>
 7- Only Magic Eden have to build a Private Curve Pool with some Liquidity and Some Liquidity will be locked which can be removed within 6/12 months with original value. </br>
 8- In this nobody looses, only some liquidity (earning APY 5%) from Magic Eden will be locked. Magic Eden can remove liquidity from Curve Pool anytime. </br>
+
+
+## ▶️ Demo
+
+[![Solana Patreon Demo]()](https://www.loom.com/share/c9892eb6b47042f0b759df314083c05d 'Solana Patreon')
