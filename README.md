@@ -4,7 +4,7 @@
 Overcollateralized loans are widely famous in the Decentralized Finance world. 
 
 Problem with Royalty:-
-1- Buyer does not want to pay for roylty. If they have chance to not pay the royalty then most buyers are not paying the royalty
+1- Buyer does not want to pay for roylty. If they have chance to not pay the royalty then most buyers are not paying the royalty </br>
 2- Royalty is a way to get additional revenue for Creators. 
 3- If a Platform enforce royalty Buyer will find a different platform to buys the NFTs.
 
