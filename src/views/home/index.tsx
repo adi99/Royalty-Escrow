@@ -46,6 +46,7 @@ export const HomeView: FC = ({ }) => {
           </Link> 
         </div>
         <div className="text-center">
+          <Link href="/royalty">
           <button type="submit" id ="button2" className="group w-60 m-2 btn animate-pulse disabled:animate-none bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 btn btn-primary btn-block btn-lg">No Royalty</button>
         </div>
 
