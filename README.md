@@ -36,6 +36,10 @@ In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 
 [![Solana Patreon Demo](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)](https://www.youtube.com/watch?v=IlzuWDVpTv0 'Solana Patreon')
 
+## ▶️ Presentation
+
+[![Solana Patreon Presentation](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)](https://www.youtube.com/watch?v=IlzuWDVpTv0 'Solana Patreon')
+
 ## Installation
 
 ```bash
