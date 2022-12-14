@@ -38,7 +38,7 @@ In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 
 ## ▶️ Presentation
 
-[![Solana Patreon Presentation](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)](https://github.com/adi99/Royalty-Escrow/blob/main/Royalty.pptx 'Solana Patreon')
+[![Solana Patreon Presentation](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)](https://www.slideshare.net/AdityaGautam2/royaltypptx 'Solana Patreon')
 
 ## Installation
 
