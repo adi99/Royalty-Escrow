@@ -35,3 +35,21 @@ In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 ## ▶️ Demo
 
 [![Solana Patreon Demo](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)](https://www.youtube.com/watch?v=IlzuWDVpTv0 'Solana Patreon')
+
+## Installation
+
+```bash
+npm install
+# or
+yarn install
+```
+
+## Build and Run
+
+Next, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
