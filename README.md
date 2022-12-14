@@ -10,7 +10,7 @@
 
 ## Solution 
 Overcollateralized loans are widely famous in the Decentralized Finance world. </br>
-Undercollaterlized loans have never been used before in DeFI ecosystem before so In this concept if buyer haven't paid or partly paid the royalty still the creator will receive the royalty.
+Undercollaterlized loans have never been used before in DeFI ecosystem before so In this concept if buyer haven't paid or partly paid the royalty still the creator will receive the royalty. The extra royalty will paid through staking the deposite in to interst generating platform which will only be unlocked after the Maturity Period.
 
 ### In Magic Eden there are three option </br>
 1- Paid with Full royalty (will exclude this case) </br>
