@@ -9,7 +9,7 @@
 - If a Platform enforces royalty NFT Buyer will find a different platform to buys the NFTs. </br>
 
 ## Solution 
-[![Solution Description](https://github.com/adi99/Royalty-Escrow/blob/main/public/Royaltylite.jpg)]
+[![Solution Description(https://github.com/adi99/Royalty-Escrow/blob/main/Solution.jpg)]
 Overcollateralized loans are widely famous in the Decentralized Finance world. </br>
 Undercollaterlized loans have never been used before in DeFI ecosystem before so In this concept if buyer haven't paid or partly paid the royalty still the creator will receive the royalty. The extra royalty will be paid through staking the deposit into interest generating platform which will only be unlocked after the Maturity Period.
 
