@@ -29,9 +29,9 @@ In case of 2.5% and 0% royalty, Following process will be followed:- </br>
 - mSol/mETH will be converted to equivalent Sol/ETH(1.025 in case of 2.5% royalty and 1.05 in case of 0% royalty) with the private Curve Pool. </br>
 - Seller will be receive his asked bid/price and creator will receive the whole royalty (extra 2.5% in case of half royalty and 5% in case of no royalty) </br>
 - The deposited Sol/ETH can removed from the deposited platform after 6 month or 12 months (Base APY 5%) by burning mSol/mETH and sent to treasery or to Curve Pool for liquidity. </br>
-- In this case both creator will get full royalty and Buyer can choose to pay royalty based on his preference. </br>
-- Only Magic Eden have to build a Private Curve Pool with some Liquidity and Some Liquidity will be locked which can be removed within 6/12 months with original value. </br>
-- In this nobody looses, only some liquidity (earning APY 5%) from Magic Eden will be locked. Magic Eden can remove liquidity from Curve Pool anytime. </br>
+- In this case creator will get full royalty and Buyer can choose to pay royalty based on his preference. </br>
+- Only Magic Eden have to build a Private Curve Pool with some Liquidity and Some Liquidity will be locked which can be removed within 6/12 months with Principal and Interest</br>
+- In this nobody looses, only some liquidity (earning APY 5%) from Magic Eden will be locked. Magic Eden can remove liquidity from Curve Pool anytime.(He will receive less if he removes it before maturity)</br>
 
 ## ▶️ Demo
 
